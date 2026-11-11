@@ -4,13 +4,13 @@ target/
 !**/src/test/**/target/
 
 ### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
+.idea/
 *.iws
 *.iml
 *.ipr
+
+### Arquivos de Template Não Utilizados ###
+src/main/java/org/
 
 ### Eclipse ###
 .apt_generated
@@ -42,3 +42,4 @@ datasets/
 *.csv
 !orders.csv
 !tempos_apriori.csv
+!tempos_fpgrowth.csv
